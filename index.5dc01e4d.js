@@ -1,0 +1,2 @@
+const e={open:document.querySelector(".burger__open"),span:document.querySelector(".burger__span"),menu:document.querySelector(".burger__menu"),body:document.querySelector("body"),link:document.querySelectorAll(".burger__link")};e.link.forEach((o=>{o.addEventListener("click",(()=>{e.menu.classList.remove("active"),e.open.classList.remove("active"),e.body.classList.remove("scroll")}))})),e.open.addEventListener("click",(()=>{e.menu.classList.toggle("active"),e.open.classList.toggle("active"),e.body.classList.toggle("scroll")}));
+//# sourceMappingURL=index.5dc01e4d.js.map
