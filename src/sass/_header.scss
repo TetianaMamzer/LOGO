@@ -1,9 +1,3 @@
-.wrapper {
-}
-.content {
-}
-.header {
-}
 
 .header__top {
   background: url('../images/header/Подложка.jpg') no-repeat;
@@ -22,8 +16,7 @@
 .burger__open {
   display: none;
 }
-.burger__span {
-}
+
 .burger__menu {
   display: none;
 }
@@ -40,6 +33,7 @@
     height: 100%;
     background-color: #fff;
     overflow: auto;
+    z-index: 20;
     &.active {
       transform: translateX(0%);
     }
@@ -49,7 +43,7 @@
     display: block;
     position: absolute;
     top: 20px;
-    left: 30px;
+    left: 20px;
     width: 30px;
     height: 20px;
     z-index: 5;
@@ -104,9 +98,6 @@
   display: flex;
   justify-content: start;
   padding: 30px;
-}
-
-.burger__group {
 }
 .burger__list {
   transition: all 0.3s ease 0s;
